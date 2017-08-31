@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-mongoose.connect('localhost:27017/test');
+mongoose.connect('mongodb://swati4jha:Kite+123@ds161713.mlab.com:61713/mongodb4swati');
 var jwt = require('jsonwebtoken');
 var Schema = mongoose.Schema;
 
